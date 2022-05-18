@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("../imagenes/bosque.jpg");
+    background-size: 100%;
+}
+
+#contenedor{
+    width: 1500px;
+    height: 1000px ;
+    margin: auto;
+    
+}
+#cabecera{
+    width: 1500px;
+    height: 400px;
+    
+}
+#cabecerasombra{
+    width: 1500px;
+    height: 150px;
+    background: rgba(0,0,0, 0.5);
+    text-decoration: none;
+    text-align: right;
+    color: aliceblue;
+    position: relative;
+    top: 75px;
+    left: 0px;
+    text-align: left;
+    padding: 40px;
+    font-size: 25px;
+}
+    
+
+
+#principal{
+    width: 1110px;
+    height: 1200px;
+    background-color: rgba(255, 255, 255);
+    margin: auto; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    position: relative;
+    top: -70px;
+    right: -200px;
+    border-radius: 15px 15px;
+
+}
+
+.contenido2{
+    width: 390px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(2, 252, 15);
+    font-size: 25px;
+    position: relative;
+    padding: 10px;
+    top: -870px;
+    right: 390px;
+    border-radius: 5px 5px;
+
+}
+.contenido{
+    width: 390px;
+    height: 60px;
+    background-color: rgb(121, 248, 116);
+    text-decoration: none;
+    outline: 1px solid rgb(167, 197, 35);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    padding: 10px;
+    top: -870px;
+    right: 390px;
+    border-radius: 5px 5px;
+  
+}
+
+#imagen{
+    width: 550px;
+    height: 700px;
+    background: url("../imagenes/saludable1.jpg");
+    background-size: cover;
+    position: relative;
+    top: -10px;
+    right: -25px;
+    border-radius: 3px 3px;
+}
+#texto{
+    width: 380px;
+    height: 400px;
+    position: relative;
+    top: -350px;
+    right: -650px;
+}
+#textoprincipal{
+    width: 100%;
+    right: 80px;
+    text-align: left;
+    padding: 30px;
+}
+.video{
+    width: 750px;
+    height: 600px;
+    background: url("../videocomidasaludable.mp4");
+    position: relative;
+    top: -80px;
+    right: -20px;
+}
